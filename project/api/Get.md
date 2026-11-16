@@ -52,8 +52,8 @@ Status Code : 201 Created
   "name" : "Jason Tatum",
   "age": "28",
   "mbti": "ESTJ",
-  "createAt" : "20261113T",
-  "modifiedAt" : "20261113T"
+  "createAt" : "2026-11-13T18:53:24.01514",
+  "updateAt" : "2026-11-13T18:53:24.01514"
 }
 ```
 ### Response Body 상세 설명

@@ -26,3 +26,11 @@
 ### 애플리케이션
 - 팀원 정보 저장 및 조회 API 개발 (생성 및 조회)
 - 운영 설정(Profile 분리 및 로그 전략)
+  - `application.yml` 형식
+  - 로컬 H2 테스트 DB 사용
+  - 운영 환경 MySQL 사용
+  - 공용 / local / prod 구조로 분리 
+  - 로그 전략 (interceptor 및 GlobalException 구현)
+
+
+### 
