@@ -5,6 +5,7 @@ import com.cloudarchitecture.dto.MemberCreateRequestDto;
 import com.cloudarchitecture.dto.MemberCreateResponseDto;
 import com.cloudarchitecture.dto.MemberGetDetailResponseDto;
 import com.cloudarchitecture.entity.Member;
+import com.cloudarchitecture.exception.MemberNotFoundException;
 import com.cloudarchitecture.repository.MemberRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -53,7 +54,7 @@ public class MemberService {
 
         // 1. 조회 후 저장 값 반환 받기 (GlobalException 사용해보기 예정)
         Member saveMember = memberRepository.findById(id).orElseThrow(
-                () -> new IllegalStateException("not found member")
+                () -> new MemberNotFoundException("해당 팀원이 존재하지 않습니다.")
         );
 
         // 2. 반환

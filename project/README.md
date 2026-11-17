@@ -1,36 +1,24 @@
-## CH4 클라우드_아키텍처 설계 & 배포 과제 
+# 📝 API 명세서 (API Documentation)
 
-네트워크를 구축하고, DB와 파일 저장소를 분리하여 서버가 죽어도 안전한 Stateless 아키텍처를 완성 목표
+### ✅ 팀원 정보 저장 및 조회 API 명세서
+
+### 테이블 명세서
+테이블명 : `members`
+
+| 컬럼명 | 데이터 타입 | 기본값 | 키 종류 | 제약 조건 | 설명 |
+| :---: | :---: | :---: | :---: | :---: | :---: | 
+| id | BIGINT | AUTO_INCREMENT | PK | NOT NULL | 팀원 정보 고유 식별자 |
+| name | VARCHAR(255) | - | - | NOT NULL | 팀원 이름 |
+| age | Integer | - | - | NOT NULL | 팀원 나이 |
+| mbti | VARCHAR(255) | - | - | NOT NULL | 성격 유형 검사 종류 |
+| createAt | timestamp(6) | - | - | NOT NULL | 팀원 생성일 |
+| updateAt | timestamp(6) | - | - | NOT NULL | 팀원 정보 수정일 |
+ 
 
 ---
 
-## 0. AWS Budgets 설정
-- 월 예산 &100 설정
-- 예산 80& 도달 시 이메일 알람 설정<br>
-
-#### <이미지 첨부>
-![img.png](../img.png)
-
-#### <예산 알림 설정>
-![img_1.png](../img_1.png)
-
----
-
-## 1. 네트워크 구축 및 핵심 기능 배포
-### 인프라 구축
-- VPC 설계 (Public/Private 분리 설정)
-- EC2 생성 (Public subnet 1번으로 설정)
-  
-<br>
-
-### 애플리케이션
-- 팀원 정보 저장 및 조회 API 개발 (생성 및 조회)
-- 운영 설정(Profile 분리 및 로그 전략)
-  - `application.yml` 형식
-  - 로컬 H2 테스트 DB 사용
-  - 운영 환경 MySQL 사용
-  - 공용 / local / prod 구조로 분리 
-  - 로그 전략 (interceptor 및 GlobalException 구현)
-
-
-### 
+### API 명세서
+| 기능 | HTTP Method | URL | status Code|
+| :---: | :---: | :---: | :---: |
+| 팀원 생성 | POST | /api/members | 201 Created |
+| 팀원 정보 상세 조회 | GET | /api/members/{Id}| 200 OK |

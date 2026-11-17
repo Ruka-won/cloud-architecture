@@ -2,13 +2,10 @@ spring:
   application:
     name: Cloud-Architecture
   profiles:
-    active: local
-
-server:
-  port: 8080
+    active: prod
 
 management:
   endpoints:
     web:
       exposure:
-        include: health,info
+        include: health
