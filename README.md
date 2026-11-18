@@ -39,4 +39,19 @@
 ![EC2-배포-검증.png](images/EC2-%EB%B0%B0%ED%8F%AC-%EA%B2%80%EC%A6%9D.png)
 
 ![EC2-Public-IP.png](images/EC2-Public-IP.png)
-### 
+## 2. DB 분리 및 보안 연결하기
+
+### 인프라 요구사항
+  - RDS 구축
+  - 엔진 옵션 : MySQL
+  - 인스턴스 크기 : 프리티어(샌드박스) 설정
+  - 자격 증명 관리 : 자체 관리로 설정
+  - 초기 데이터베이스 이름 : CH4
+  - 퍼블릭 액세스 : “예”
+  - 기존 VPC 보안 그룹 : CH4-sg 설정
+  - 보안 그룹 인바이트 추가 (3306)
+
+  ![RDS구축.png](images/RDS%EA%B5%AC%EC%B6%95.png)
+
+- 보안 그룹 체이닝
+  - 
