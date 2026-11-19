@@ -22,7 +22,9 @@
 
 ## Level 1 -  네트워크 구축 및 핵심 기능 배포
 ### 1-1. 인프라 구축
+
 - VPC 설계 (Public/Private 분리 설정)
+
 ![VPC-설계.png](images/VPC-%EC%84%A4%EA%B3%84.png)
 
 - EC2 생성 (Public subnet 1번으로 설정)
