@@ -23,10 +23,16 @@
 ## Level 1 -  네트워크 구축 및 핵심 기능 배포
 ### 1-1. 인프라 구축
 - VPC 설계 (Public/Private 분리 설정)
-- EC2 생성 (Public subnet 1번으로 설정)
+![VPC-설계.png](images/VPC-%EC%84%A4%EA%B3%84.png)
 
+- EC2 생성 (Public subnet 1번으로 설정)
+  - 인스턴스명 : CH4-Cloud-Architecture
+  - 인스턴스 유형 : t4g.small
+  - 가용 영역 : ap-northeast-2a
 ### 1-2. 애플리케이션
 - 팀원 정보 저장 및 조회 API 개발 (생성 및 조회)
+  - 파일경로 `project/api` API 및 테이블 명세서 작성
+
 
 - 운영 설정(Profile 분리 및 로그 전략)
   - `application.yml` 형식
@@ -34,9 +40,13 @@
   - 운영 환경 MySQL 사용
   - 공용 / local / prod 구조로 분리 
   - 로그 전략 (interceptor 및 GlobalException 구현)
+
+
 - 상태모니터링 (Actuator)
   - build.gradle 의존성 추가
   - yml 엔트포인트 설정 (health)
+
+
 - 배포 및 검증
   - `active = local` 설정하여 배포 검증 완료
 
@@ -73,6 +83,7 @@
 
 #### Parameter store
 - AWS Parameter Store (url, name, password) 값 생성
+  - `/cloud-architecture-app/prod/**` 이름 설정 
 
 ### 2-2. 애플리케이션 요구사항
 - Spring Boot 실행 Parameter Store 값 주입받아 RDS 연결
