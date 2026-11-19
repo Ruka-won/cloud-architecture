@@ -4,21 +4,18 @@ spring:
   profiles:
     active: prod
 
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-
-  jpa:
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQLDialect
-
 server:
   port: 8080
 
 management:
+  info:
+    env:
+      enabled: true
+
   endpoints:
     web:
       exposure:
-        include: health
+        include: health,info
 
-
+info:
+  team-name: ${test-name}

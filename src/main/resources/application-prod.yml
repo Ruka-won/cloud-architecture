@@ -1,13 +1,24 @@
+
 spring:
+  config:
+    import: "aws-parameterstore:/cloud-architecture-app/prod/"
+
+  cloud:
+    aws:
+      parameterstore:
+        region: ap-northeast-2
+
   datasource:
-    url: jdbc:mysql://ch4-database.c5s0aoicw46q.ap-northeast-2.rds.amazonaws.com:3306/CH4
-    username: admin
-    password: 12345678
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
     hibernate:
-      ddl-auto: validate
+      ddl-auto: none
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
+    show-sql: false
+
