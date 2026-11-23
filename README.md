@@ -133,3 +133,25 @@ Actuator info URL : http://3.35.13.245:8080/actuator/info
 
 **[접근성공]**
 ![Presigned-URL.png](images/Presigned-URL.png)
+
+
+## Level 4 - Docker & CI/CD 파이프라인 구축
+
+### 4-1. Docker & CI/CD
+- Docker 도입
+  - Dockerfile 작성
+  - `docker build -t cloud-architecture-api:1.0 .` 빌드하며 태그 지정
+  - `github/workflows/deploy.yml` 파일 생성
+
+- Github Action CI/CD
+  - `Github -> Settings -> Secrets and variables -> Action` 키 설정
+- CI
+  - `on : push : branches : main` 실행 지정 부분 설정
+  - `Ubuntu` 실행 환경을 통해 테스트
+
+
+
+### 4-2. 검증
+
+
+### 4-3. 과제 제출 요구사항
