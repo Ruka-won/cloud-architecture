@@ -24,6 +24,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-webmvc'
     implementation platform("io.awspring.cloud:spring-cloud-aws-dependencies:4.2.0")
     implementation 'io.awspring.cloud:spring-cloud-aws-starter-parameter-store'
+    implementation 'software.amazon.awssdk:s3'
     compileOnly 'org.projectlombok:lombok'
     runtimeOnly 'com.h2database:h2'
     runtimeOnly 'com.mysql:mysql-connector-j'

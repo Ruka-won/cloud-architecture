@@ -2,10 +2,16 @@ spring:
   application:
     name: Cloud-Architecture
   profiles:
-    active: prod
+    active: local
 
 server:
   port: 8080
+
+
+cloud:
+   aws:
+     s3:
+       bucket: ch4-cloud-architecutre-rukawon-files
 
 management:
   info:

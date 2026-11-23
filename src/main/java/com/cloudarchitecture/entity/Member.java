@@ -25,11 +25,18 @@ public class Member extends BaseEntity {
     @Column(nullable = false, length = 255)
     private String mbti;
 
+    @Column(nullable = true ,name = "profile_image_key")
+    private String profileImageKey;
+
 
     public Member(String name, int age, String mbti) {
         this.name = name;
         this.age = age;
         this.mbti = mbti;
+    }
+
+    public void updateProfileImage(String profileImageKey) {
+        this.profileImageKey = profileImageKey;
     }
 
 }

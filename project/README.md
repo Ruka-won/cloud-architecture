@@ -13,6 +13,7 @@
 | mbti | VARCHAR(255) | - | - | NOT NULL | 성격 유형 검사 종류 |
 | createAt | timestamp(6) | - | - | NOT NULL | 팀원 생성일 |
 | updateAt | timestamp(6) | - | - | NOT NULL | 팀원 정보 수정일 |
+| profile_image_key | 
  
 
 ---
