@@ -2,7 +2,7 @@ spring:
   application:
     name: Cloud-Architecture
   profiles:
-    active: local
+    active: prod
 
 server:
   port: 8080

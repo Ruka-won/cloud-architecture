@@ -18,7 +18,6 @@ http://3.35.13.245:8080/api/members/1/profile-image
 | Field | Essential (Y/N) | DataType | description | 
 | :---: | :---: | :---: | :---: | 
 | id | Y | Long | 팀원 정보 고유 식별자 |
-|  | - | - | - | 
 | - | - | - | - | 
 
 
@@ -33,7 +32,6 @@ http://3.35.13.245:8080/api/members/1/profile-image
 | Field | Essential (Y/N) | DataType | description | 
 | :---: | :---: | :---: | :---: | 
 | file | Y | MultipartFile | 업로드할 이미지 파일 |
-| - | - | - | - | 
 | - | - | - | - | 
 
 <br>
