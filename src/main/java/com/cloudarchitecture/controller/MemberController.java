@@ -54,7 +54,7 @@ public class MemberController {
         CreateImageResponseDto responseDto = memberService.saveImage(id, request);
 
         // 2. 응답 객체 생성 및 반환
-        return new ResponseEntity<>(responseDto, HttpStatus.CREATED);
+        return new ResponseEntity<>(responseDto, HttpStatus.OK);
 
     }
 
