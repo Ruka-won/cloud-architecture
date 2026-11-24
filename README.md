@@ -104,8 +104,7 @@ Actuator info URL : http://3.35.13.245:8080/actuator/info
 
 ![인바운드규칙.png](images/%EC%9D%B8%EB%B0%94%EC%9A%B4%EB%93%9C%EA%B7%9C%EC%B9%99.png)
 
-
-
+---
 
 ## Level 3 - 프로필 사진 기능 추가와 권환 관리
 
@@ -125,15 +124,16 @@ Actuator info URL : http://3.35.13.245:8080/actuator/info
 ### 3-3. 과제 제출 요구사항
 **[Presigned URL]**
 
-[이미지 다운로드 URL](https://ch4-cloud-architecutre-rukawon-files.s3.ap-northeast-2.amazonaws.com/profile-images/6/cb5edb9f-8ee8-4d31-a846-fb2bbdaa5ef4?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkYwRAIgKU7XMX%2BWm1S6Duy3epO0YT3TVZoCxPXBVlyCVwF0tNcCIGsOk%2B9EyVvlEdTNIAfEvvF0U8TPZbrQF3RzF8NuIWQbKskFCGsQABoMMTEwNzA0MTE2ODM4Igz4TnIte7ClER%2B0dfAqpgWcNSiVMqePKilYXDPSAFxMIInndtUe%2BC9M%2FudjyFc4mf3B9ixkVG9tHwiK5TtACFCm5OSCyJAFMnzg7cEv4ADmEHGmjIA29ktXTPiEahexn0Wzf4kBdd6aPu%2Bv49D56MYA8ZUE%2B8MdvHzPHOHGH7VgYkIPkdmkbp9D%2BBLi1CLOb4HzRPWC3qMo6O1sr%2BmQrEMjh7GMW6UV9GKXQ3dBpBL7nMfP%2FYpKBRr3iDYIo3GpzrsdASWqvtGxLm0dzGnRRFrtSDH1OaUbVTYQTrVeH1mmPi0CAWbszQeHW6McHS%2FtcR9raK8ygUaLonl9fJh14cgfTR6QucSt%2FyQjPrb9R%2FaHh%2Ft2ReMcyaeXN2TZMPlZ6dTaLunV%2B%2FONyKBJGd0o9o%2BigTnWMpGmJnrZgLDUsn67CdC%2Bl9fDppCRbiXhg1PHi1TzD6DDGiqPKn9yEdxzPm%2Bzd%2BDbY0R8mk4bg0TnzvQeo16SH7GrCEI7HA%2FOPT6pDkSYf%2BkpDQrAdJmJU3NdxE2SUM2C1iFQHSKU7zJ68Lzo3%2Fyvevn8EkuVukGbNfFs4LRloQNq7Dr%2B1%2Bfe1FKc4FMKf7wI2%2Fcf4j3nsAlS85JdCq1oxDxn9V1NJlaikSmU%2FXnQGy1bktDqRSJXikOroIIr299RZ6AUkhF%2FG4WrH0HmquQ3G0mXbdQ6RAtveRnnjJwcd0oEu38TOTPKDGJspMxSi1T5ip5HxqgJ%2BmROPqKzwmZIlgk1NcwCLXfwvasgGbZKkLal8vb7z%2Fhkiu4cgl43xUqY7XSjpbm6zt%2F44btN%2Bs4fnS1WkNjpbc8%2FOa5G9l%2FnaDgk106HikgoHUEFmCcL25pfoQKsSOcRgpRl3e3Cs8o0aJdsZLF6n9onT%2BnULf0CHbFS%2B9p8HimLqd64NHMBjKrKuZ4wgryO2AY6sgFSPaCU0osyOuiumTaveczUa6i1nmAlQQf7ZSV6oIHi%2BhvgDQ4uQVJyofmUaJ%2BfwE1OhmxLd96blntdyXwnTqAB%2FyZ%2B4fVfMgOITWMGGUJLfd2Y7NkVngUX4%2BvWdg2CVFN8yQBZwaL3HefWle%2FajfcUxOtI25%2BzblyFCHRobvSCcwTe%2FoQqHpYAT0iquqi54QpywXS4iuVa4QD3Dw5YGp5PiPekFcuDpIVUlV619YgECTYx&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261123T021333Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIARTRT2YRTKAUOEM3Z%2F20261123%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Expires=604800&X-Amz-Signature=b6098e82bcd59967435819a54659b623d0f6ee131ec2f75a9de3fe6348c00a5e)
-- 발급일: 2026-11-23
-- 만료일: 2026-11-30
+[이미지 다운로드 URL](https://ch4-cloud-architecutre-rukawon-files.s3.ap-northeast-2.amazonaws.com/profile-images/7/d798851e-bd68-4dd5-91cb-b7f931c44789?X-Amz-Security-Token=IQoJb3JpZ2luX2VjELn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0yIkcwRQIhAM9wfdPGUpjOIzGHV0tgroHhOF6VAt4lqwvAaTTnwbdDAiB5nB2n4tB%2BLxbxskkWRCVft%2BBIJUHOkNwO540U8K3qLCrSBQiC%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDExMDcwNDExNjgzOCIMJTeS8bKppawmBTDkKqYFbFV1XLHBkjig6DqKwo066yIOmpvWFjFHgTUt5UQ6Rj%2BVH3cIY3UCXx%2FDa9fB95%2FWnYZQbXBpO0%2BUz4hVp9FyDM6zdZez4Yfo4Dj8knJPukLVijs8wH%2B1glF1itSJUOVPvhUIsNC%2Bp9aHFzSNfQNxRM0fkGePOnGkJB05fjlGpYLDMdot2nZRvCce%2FN4KQiVx4ryTaBqZ%2BVKxnL8joY0R%2BCbmAhfRb5yaG4zznh1db24H7Ip40QD5vN8cVets5ndi7Pf7ZI6jJh9DE2Fom%2BcOoaqeZNch122%2BqlVzeBmtOqA8zoXymZVUwAXOs2sXwl6ARkJQvzH2nu%2FbRyaE9fY8lq6iqGiS%2F0WdWWrwLq6buks%2FqtxkwUn159SKA2pWqO%2BdHIhJJqBTR8vUT6%2FCqIUlcj%2BfnBYZmqWFrib56i7gfM6Xg538Yv9cZPSwUD28G1iqwXlz799Wg8CgsHUs285ZkXFsGDwXnN0TYa13VH8LeJlP3J3heZuXQZLG2c%2FUfke0tTse3pFA607iDYBK2jdA4QiP0IEYLDyGTDgOecqK%2FxLJM7d%2FbDf5iym4IbRjawVjJ8v%2BUN6AcmjfqXRqlPv5%2FY4xHJtoRdFu8J%2FE8zqAEssJhZD1FQNpvZh3krwV06HGcoLjzhJeHq%2B3sWYPuPp8j9%2BwMaHBMn9CnfSsl48%2FL%2F6AYCOrTHD%2F0setdohuY0RykIMq9cqgAOHjdUYLPNBJtRhct0Jd2WnDFFQ%2FPgmKF%2FbNV1ulnVfZY7D4bUKx8EN9fWqk%2B0%2B%2F5GNjy68ElINNtPZKYkfwsGBIWcPhGMiMFMMDz8wQ%2BaYXMdRd%2FbVzSt%2FaDDYJwVpN6f5Ry52pljpxBpgZCe4EdaJAbZgtOplDQgjqFFSgbg89NFkcCyIx%2BDdKiciizJ8VMNrIk9gGOrEBeBRFmLr%2BvaE1k9GLHHPkhf9DaLxJyXOUvsvC1puNTxZiWjaGF5SPByiTf87GbRYvuiEE7dV5ID%2BHy5SkhPy4YJiddtSGqimXgRbuMj0FRvaxZpNae5%2B4gmJVICMXAkN3BxId2dtzhCUNpgjWlqbTlDEoskqL6h%2BNjIq8JUkqERqGUaJFXyrv7%2BRe1fMHVEMXP1VbvkBK1opqsU6QCp%2Bh81Dc1DFe9VmowgBB8PBhZxwR&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261124T014438Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIARTRT2YRTALMN7ZPT%2F20261124%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Expires=604800&X-Amz-Signature=890aa0ff6994a15544ec757cf9efb927936113f75c2132e4b44c255c80141f89)
+- 발급일: 2026-11-24
+- 만료일: 2026-12-01
 - 유효기간: 7일
 
 
 **[접근성공]**
 ![Presigned-URL.png](images/Presigned-URL.png)
 
+---
 
 ## Level 4 - Docker & CI/CD 파이프라인 구축
 
@@ -143,15 +143,42 @@ Actuator info URL : http://3.35.13.245:8080/actuator/info
   - `docker build -t cloud-architecture-api:1.0 .` 빌드하며 태그 지정
   - `github/workflows/deploy.yml` 파일 생성
 
-- Github Action CI/CD
+- Github Action
   - `Github -> Settings -> Secrets and variables -> Action` 키 설정
-- CI
-  - `on : push : branches : main` 실행 지정 부분 설정
-  - `Ubuntu` 실행 환경을 통해 테스트
+    - `AWS_ACCESS_KEY (AWS/IAM/USer)`
+    - `AWS_REGION`
+    - `AWS_SECRET_ACCESS_KEY`
+    - `DOCKERHUB_TOKEN`
+    - `DOCKERHUB_USERNAME`
+    - `EC2_HOST`
+    - `EC2_SSH_KEY`
+- CI/CD 파이프라인
+CI (Continuous Integration)
+  - GitHub main 브랜치 Push 시 Workflow 실행
+  - Ubuntu 환경에서 Java 17 설정
+  - Gradle 빌드 및 테스트 실행
 
+Docker Image Build & Push
+  - Docker Hub 로그인
+  - Docker Image 빌드
+  - AMD64 / ARM64 멀티 플랫폼 이미지 생성
+  - Docker Hub에 이미지 Push
+
+CD (Continuous Deployment)
+  - GitHub Actions를 통한 EC2 SSH 접속
+  - Docker Hub에서 최신 이미지 Pull
+  - 기존 컨테이너 중지 및 삭제
+  - 신규 Docker 컨테이너 실행
 
 
 ### 4-2. 검증
+**[test]**
+![Github-Push-test.png](images/Github-Push-test.png)
 
 
 ### 4-3. 과제 제출 요구사항
+**[Gtihub Actions]**
+![Github-Actions.png](images/Github-Actions.png)
+
+**[EC2 terminal]**
+![EC2-terminal.png](images/EC2-terminal.png)
